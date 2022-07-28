@@ -42,7 +42,7 @@ struct MainView: View {
                 }.padding(.bottom, Dimensions.large)
                     .padding(.trailing, Dimensions.large)
             }
-        }.bottomSheet(isPresented: $isFoodResultPresented, height: 300, contentBackgroundColor: Color.white, topBarBackgroundColor: Color.white) {
+        }.bottomSheet(isPresented: $isFoodResultPresented, height: ScreenDimensions.screenHeight * 0.70, contentBackgroundColor: Color.white, topBarBackgroundColor: Color.white) {
             FoodResultView()
         }.background(Color.white)
     }

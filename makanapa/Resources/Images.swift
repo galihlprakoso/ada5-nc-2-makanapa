@@ -11,4 +11,7 @@ class Images {
     static let background = "makanapabg"
     static let logo = "makanapalogo"
     static let icArrowRight = "icarrowright"
+    static let icMoney = "icmoney"
+    static let icLocation = "iclocation"
+    static let icStar = "icstar"
 }
